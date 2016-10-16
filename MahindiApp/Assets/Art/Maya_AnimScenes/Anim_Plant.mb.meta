@@ -18,6 +18,28 @@ ModelImporter:
     100020: Leg:Toes
     100022: Stick:StickMesh
     100024: PlantHole:PlantHoleMesh
+    100026: Leg:Leg_Grp
+    100028: Hand:Arm
+    100030: Hand:Hand
+    100032: Hand:Hand_Grp
+    100034: Hand:HandMesh
+    100036: Hand:Index1
+    100038: Hand:Index2
+    100040: Hand:Index3
+    100042: Hand:Middle1
+    100044: Hand:Middle2
+    100046: Hand:Middle3
+    100048: Hand:Pinky1
+    100050: Hand:Pinky2
+    100052: Hand:Pinky3
+    100054: Hand:Ring1
+    100056: Hand:Ring2
+    100058: Hand:Ring3
+    100060: Hand:Thumb1
+    100062: Hand:Thumb2
+    100064: Hand:Thumb3
+    100066: Seed:SeedMesh
+    100068: Seed1:SeedMesh
     400000: //RootNode
     400002: FertilizerHole:FertilizerHoleMesh
     400004: Field:FieldMesh
@@ -31,22 +53,52 @@ ModelImporter:
     400020: Leg:Toes
     400022: Stick:StickMesh
     400024: PlantHole:PlantHoleMesh
+    400026: Leg:Leg_Grp
+    400028: Hand:Arm
+    400030: Hand:Hand
+    400032: Hand:Hand_Grp
+    400034: Hand:HandMesh
+    400036: Hand:Index1
+    400038: Hand:Index2
+    400040: Hand:Index3
+    400042: Hand:Middle1
+    400044: Hand:Middle2
+    400046: Hand:Middle3
+    400048: Hand:Pinky1
+    400050: Hand:Pinky2
+    400052: Hand:Pinky3
+    400054: Hand:Ring1
+    400056: Hand:Ring2
+    400058: Hand:Ring3
+    400060: Hand:Thumb1
+    400062: Hand:Thumb2
+    400064: Hand:Thumb3
+    400066: Seed:SeedMesh
+    400068: Seed1:SeedMesh
     2300000: FertilizerHole:FertilizerHoleMesh
     2300002: Field:FieldMesh
     2300004: Stick:StickMesh
     2300006: PlantHole:PlantHoleMesh
+    2300008: Seed:SeedMesh
+    2300010: Seed1:SeedMesh
     3300000: FertilizerHole:FertilizerHoleMesh
     3300002: Field:FieldMesh
     3300004: Stick:StickMesh
     3300006: PlantHole:PlantHoleMesh
+    3300008: Seed:SeedMesh
+    3300010: Seed1:SeedMesh
     4300000: Leg:LegMesh
     4300002: Field:FieldMesh
     4300004: FertilizerHole:FertilizerHoleMesh
     4300006: Stick:StickMesh
     4300008: PlantHole:PlantHoleMesh
+    4300010: Hand:HandMesh
+    4300012: Seed:SeedMesh
+    4300014: Seed1:SeedMesh
     7400000: Take 001
     9500000: //RootNode
     13700000: Leg:LegMesh
+    13700002: Hand:HandMesh
   materials:
     importMaterials: 1
     materialName: 0
