@@ -10,8 +10,11 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: FertilizerHole:FertilizerHoleMesh
+    4300002: FertilizerHole:FertilizeHoleMesh
+    4300004: Fertilizer:FertilizerMesh
     7400000: Flat
     7400002: Default
+    7400004: Plant
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -39,6 +42,36 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1
       lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Plant
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 450
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
