@@ -1,13 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\Go.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\Light.cs">
     <Files>
+      <File FileName="Assets\Art\Scripts\MatSwap.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CameraPosition.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CameraSwitcher.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="4" Column="40" />
+      <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShow.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShowSkinned.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\Go.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\RainOnOff.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\Light.cs" Line="19" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

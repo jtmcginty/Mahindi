@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{A5121CF9-AE57-6F3C-D423-D8D7A4A45E1A}") = "MahindiApp", "Assembly-CSharp.csproj", "{7678FD91-B85A-3C4F-B10D-B196AEC21E73}"
 EndProject
+Project("{A5121CF9-AE57-6F3C-D423-D8D7A4A45E1A}") = "MahindiApp", "Assembly-CSharp-Editor.csproj", "{D390E379-4E9D-F5D4-F796-FE93FC420CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{7678FD91-B85A-3C4F-B10D-B196AEC21E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7678FD91-B85A-3C4F-B10D-B196AEC21E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7678FD91-B85A-3C4F-B10D-B196AEC21E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D390E379-4E9D-F5D4-F796-FE93FC420CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D390E379-4E9D-F5D4-F796-FE93FC420CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D390E379-4E9D-F5D4-F796-FE93FC420CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D390E379-4E9D-F5D4-F796-FE93FC420CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
