@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Art/Scenes/MaizePlantLayout.unity
+- path: Assets/Art/Scenes/Animation.unity
   isLoaded: 1
   isActive: 1
