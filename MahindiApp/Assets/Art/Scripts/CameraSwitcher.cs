@@ -5,6 +5,7 @@ public class CameraSwitcher : MonoBehaviour {
 	public Transform targetfar;
 	public Transform targetmed;
 	public Transform targetclose;
+	public Transform targetharvest;
 
 	public void CamFar() {
 		CameraPosition follower = GetComponent<CameraPosition>();
@@ -23,5 +24,11 @@ public class CameraSwitcher : MonoBehaviour {
 		if (follower == null) Debug.LogError("Hey, where's the CameraPosition script?!?");
 
 		follower.target = targetclose;
+	}
+	public void CamHarvest() {
+		CameraPosition follower = GetComponent<CameraPosition>();
+		if (follower == null) Debug.LogError("Hey, where's the CameraPosition script?!?");
+
+		follower.target = targetharvest;
 	}
 }
