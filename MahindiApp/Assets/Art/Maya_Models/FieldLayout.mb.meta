@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7003fb0dd13c77b4782c61759764928b
-timeCreated: 1477222644
+timeCreated: 1477270532
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -1198,6 +1198,13 @@ ModelImporter:
     102380: CubeInView
     102382: PlantsInMedView
     102384: CubesInView
+    102386: HarvestBag1
+    102388: HarvestBag2
+    102390: HarvestBag2 1
+    102392: HarvestBag3
+    102394: HarvestBag:HarvestBag
+    102396: HarvestBag:HarvestBag 1
+    102398: HarvestBag:SeedTop
     400000: Bag:Bag:Bag_Grp
     400002: Bag:Bag:BagMesh
     400004: Bag:Bag:SeedTop
@@ -2391,6 +2398,13 @@ ModelImporter:
     402380: CubeInView
     402382: PlantsInMedView
     402384: CubesInView
+    402386: HarvestBag1
+    402388: HarvestBag2
+    402390: HarvestBag2 1
+    402392: HarvestBag3
+    402394: HarvestBag:HarvestBag
+    402396: HarvestBag:HarvestBag 1
+    402398: HarvestBag:SeedTop
     2300000: Bag:Bag:BagMesh
     2300002: Bag:Bag:SeedTop
     2300004: BagMesh
@@ -3558,6 +3572,10 @@ ModelImporter:
     2302328: Cube99
     2302330: CubeInView
     2302332: CubesInView
+    2302334: HarvestBag2
+    2302336: HarvestBag2 1
+    2302338: HarvestBag:HarvestBag 1
+    2302340: HarvestBag:SeedTop
     3300000: Bag:Bag:BagMesh
     3300002: Bag:Bag:SeedTop
     3300004: BagMesh
@@ -4725,6 +4743,10 @@ ModelImporter:
     3302328: Cube99
     3302330: CubeInView
     3302332: CubesInView
+    3302334: HarvestBag2
+    3302336: HarvestBag2 1
+    3302338: HarvestBag:HarvestBag 1
+    3302340: HarvestBag:SeedTop
     4300000: MaizePlantForField_Mesh
     4300002: MaizePlantForField_Mesh1
     4300004: MaizePlantForField_Mesh2
@@ -5892,6 +5914,10 @@ ModelImporter:
     4302328: Cube429
     4302330: CubeInView
     4302332: CubesInView
+    4302334: HarvestBag2
+    4302336: HarvestBag2
+    4302338: HarvestBag:SeedTop
+    4302340: HarvestBag:HarvestBag
     9500000: //RootNode
   materials:
     importMaterials: 1
