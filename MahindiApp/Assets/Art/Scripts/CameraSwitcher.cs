@@ -12,23 +12,27 @@ public class CameraSwitcher : MonoBehaviour {
 		if (follower == null) Debug.LogError("Hey, where's the CameraPosition script?!?");
 
 		follower.target = targetfar;
+		follower.smoothTime = 0.4f;
 	}
 	public void CamMed() {
 		CameraPosition follower = GetComponent<CameraPosition>();
 		if (follower == null) Debug.LogError("Hey, where's the CameraPosition script?!?");
 
 		follower.target = targetmed;
+		follower.smoothTime = 0.4f;
 	}
 	public void CamClose() {
 		CameraPosition follower = GetComponent<CameraPosition>();
 		if (follower == null) Debug.LogError("Hey, where's the CameraPosition script?!?");
 
 		follower.target = targetclose;
+		follower.smoothTime = 0.4f;
 	}
 	public void CamHarvest() {
 		CameraPosition follower = GetComponent<CameraPosition>();
 		if (follower == null) Debug.LogError("Hey, where's the CameraPosition script?!?");
 
 		follower.target = targetharvest;
+		follower.smoothTime = 0.9f;
 	}
 }
