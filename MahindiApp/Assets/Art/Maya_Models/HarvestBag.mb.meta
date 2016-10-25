@@ -8,15 +8,25 @@ ModelImporter:
     100000: //RootNode
     100002: HarvestBag:HarvestBag 1
     100004: HarvestBag:SeedTop
+    100006: HarvestBag_Master:HarvestBag 1
+    100008: HarvestBag_Master:SeedTop
     400000: //RootNode
     400002: HarvestBag:HarvestBag 1
     400004: HarvestBag:SeedTop
+    400006: HarvestBag_Master:HarvestBag 1
+    400008: HarvestBag_Master:SeedTop
     2300000: HarvestBag:HarvestBag 1
     2300002: HarvestBag:SeedTop
+    2300004: HarvestBag_Master:HarvestBag 1
+    2300006: HarvestBag_Master:SeedTop
     3300000: HarvestBag:HarvestBag 1
     3300002: HarvestBag:SeedTop
+    3300004: HarvestBag_Master:HarvestBag 1
+    3300006: HarvestBag_Master:SeedTop
     4300000: HarvestBag:SeedTop
     4300002: HarvestBag:HarvestBag
+    4300004: HarvestBag_Master:SeedTop
+    4300006: HarvestBag_Master:HarvestBag
     9500000: //RootNode
   materials:
     importMaterials: 1
