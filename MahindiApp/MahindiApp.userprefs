@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\Cobs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\Go.cs">
     <Files>
-      <File FileName="Assets\Art\Scripts\MatSwap.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CameraPosition.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CameraSwitcher.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="4" Column="39" />
+      <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="13" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShow.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShowSkinned.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\Go.cs" Line="1" Column="1" />
@@ -15,7 +14,8 @@
       <File FileName="Assets\Art\Scripts\HideShowChildren.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\NextBagScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CamAimSwitcher.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\Cobs.cs" Line="13" Column="25" />
+      <File FileName="Assets\Art\Scripts\Cobs.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\MatTransitionInChildren.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

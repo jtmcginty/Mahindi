@@ -57,7 +57,7 @@
      <Compile Include="Assets\Art\Scripts\HideShowChildren.cs" />
      <Compile Include="Assets\Art\Scripts\HideShowSkinned.cs" />
      <Compile Include="Assets\Art\Scripts\Light.cs" />
-     <Compile Include="Assets\Art\Scripts\MatSwap.cs" />
+     <Compile Include="Assets\Art\Scripts\MatTransitionInChildren.cs" />
      <Compile Include="Assets\Art\Scripts\NextBagScript.cs" />
      <Compile Include="Assets\Art\Scripts\RainOnOff.cs" />
      <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
