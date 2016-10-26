@@ -4,6 +4,7 @@ using System.Collections;
 public class MaizePlantMaterialMesh : MonoBehaviour
 {
 	public Material materialGreen;
+	public Material materialLessGreen;
 	public Material materialBrown;
 	public Material materialDry;
 	[Range(0,1)] public float mix = 0f;
@@ -34,6 +35,14 @@ public class MaizePlantMaterialMesh : MonoBehaviour
 		if (whichMats == 3)
 		{
 			rend.material.Lerp (materialBrown, materialDry, mix);
+		}
+		if (whichMats == 4)
+		{
+			rend.material.Lerp (materialGreen, materialLessGreen, mix);
+		}
+		if (whichMats == 5)
+		{
+			rend.material.Lerp (materialLessGreen, materialDry, mix);
 		}
 	}
 
