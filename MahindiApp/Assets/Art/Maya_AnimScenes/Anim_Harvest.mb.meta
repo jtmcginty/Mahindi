@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 60af1468e173406408e166c5b70615b3
+timeCreated: 1477560913
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: HarvestBag_Harv1:HarvestBag:HarvestBag
+    100004: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    100006: HarvestBag_Harv1:HarvestBag:SeedTop
+    100008: HarvestBag_Harv2:HarvestBag:HarvestBag
+    100010: HarvestBag_Harv2:HarvestBag:HarvestBag 1
+    100012: HarvestBag_Harv2:HarvestBag:SeedTop
+    100014: HarvestBag_Harv3:HarvestBag:HarvestBag
+    100016: HarvestBag_Harv3:HarvestBag:HarvestBag 1
+    100018: HarvestBag_Harv3:HarvestBag:SeedTop
+    100020: HarvestBag_Harv4:HarvestBag:HarvestBag
+    100022: HarvestBag_Harv4:HarvestBag:HarvestBag 1
+    100024: HarvestBag_Harv4:HarvestBag:SeedTop
+    400000: //RootNode
+    400002: HarvestBag_Harv1:HarvestBag:HarvestBag
+    400004: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    400006: HarvestBag_Harv1:HarvestBag:SeedTop
+    400008: HarvestBag_Harv2:HarvestBag:HarvestBag
+    400010: HarvestBag_Harv2:HarvestBag:HarvestBag 1
+    400012: HarvestBag_Harv2:HarvestBag:SeedTop
+    400014: HarvestBag_Harv3:HarvestBag:HarvestBag
+    400016: HarvestBag_Harv3:HarvestBag:HarvestBag 1
+    400018: HarvestBag_Harv3:HarvestBag:SeedTop
+    400020: HarvestBag_Harv4:HarvestBag:HarvestBag
+    400022: HarvestBag_Harv4:HarvestBag:HarvestBag 1
+    400024: HarvestBag_Harv4:HarvestBag:SeedTop
+    2300000: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    2300002: HarvestBag_Harv1:HarvestBag:SeedTop
+    2300004: HarvestBag_Harv2:HarvestBag:HarvestBag 1
+    2300006: HarvestBag_Harv2:HarvestBag:SeedTop
+    2300008: HarvestBag_Harv3:HarvestBag:HarvestBag 1
+    2300010: HarvestBag_Harv3:HarvestBag:SeedTop
+    2300012: HarvestBag_Harv4:HarvestBag:HarvestBag 1
+    2300014: HarvestBag_Harv4:HarvestBag:SeedTop
+    3300000: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    3300002: HarvestBag_Harv1:HarvestBag:SeedTop
+    3300004: HarvestBag_Harv2:HarvestBag:HarvestBag 1
+    3300006: HarvestBag_Harv2:HarvestBag:SeedTop
+    3300008: HarvestBag_Harv3:HarvestBag:HarvestBag 1
+    3300010: HarvestBag_Harv3:HarvestBag:SeedTop
+    3300012: HarvestBag_Harv4:HarvestBag:HarvestBag 1
+    3300014: HarvestBag_Harv4:HarvestBag:SeedTop
+    4300000: HarvestBag_Harv1:HarvestBag:SeedTop
+    4300002: HarvestBag_Harv1:HarvestBag:HarvestBag
+    4300004: HarvestBag_Harv2:HarvestBag:SeedTop
+    4300006: HarvestBag_Harv2:HarvestBag:HarvestBag
+    4300008: HarvestBag_Harv3:HarvestBag:SeedTop
+    4300010: HarvestBag_Harv3:HarvestBag:HarvestBag
+    4300012: HarvestBag_Harv4:HarvestBag:SeedTop
+    4300014: HarvestBag_Harv4:HarvestBag:HarvestBag
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

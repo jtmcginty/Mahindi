@@ -1,23 +1,23 @@
 fileFormatVersion: 2
-guid: 9cb4c027f336528488bdea2241d0d0a9
-timeCreated: 1477272684
+guid: a47d27264c2cf3049b595c4ff9a63578
+timeCreated: 1477561189
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: HarvestBag:HarvestBag 1
-    100002: HarvestBag:SeedTop
-    100004: //RootNode
-    400000: HarvestBag:HarvestBag 1
-    400002: HarvestBag:SeedTop
-    400004: //RootNode
-    2300000: HarvestBag:HarvestBag 1
-    2300002: HarvestBag:SeedTop
-    3300000: HarvestBag:HarvestBag 1
-    3300002: HarvestBag:SeedTop
-    4300000: HarvestBag:SeedTop
-    4300002: HarvestBag:HarvestBag
-    7400000: Default
+    100000: //RootNode
+    100002: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    100004: HarvestBag_Harv1:HarvestBag:SeedTop
+    400000: //RootNode
+    400002: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    400004: HarvestBag_Harv1:HarvestBag:SeedTop
+    2300000: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    2300002: HarvestBag_Harv1:HarvestBag:SeedTop
+    3300000: HarvestBag_Harv1:HarvestBag:HarvestBag 1
+    3300002: HarvestBag_Harv1:HarvestBag:SeedTop
+    4300000: HarvestBag_Harv1:HarvestBag:SeedTop
+    4300002: HarvestBag_Harv1:HarvestBag:HarvestBag
+    7400000: Empty
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -41,10 +41,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default
+      name: Empty
       takeName: Take 001
-      firstFrame: 0
-      lastFrame: 60
+      firstFrame: 1
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -74,13 +74,13 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: HarvestBag:HarvestBag 1
+      - path: HarvestBag_Harv1:HarvestBag:HarvestBag 1
         weight: 1
-      - path: HarvestBag:SeedTop
+      - path: HarvestBag_Harv1:HarvestBag:SeedTop
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []

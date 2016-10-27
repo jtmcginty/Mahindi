@@ -51,7 +51,7 @@
      <Compile Include="Assets\Art\Scripts\CameraPosition.cs" />
      <Compile Include="Assets\Art\Scripts\CameraSwitcher.cs" />
      <Compile Include="Assets\Art\Scripts\Cobs.cs" />
-     <Compile Include="Assets\Art\Scripts\HarvestBag.cs" />
+     <Compile Include="Assets\Art\Scripts\HarvestBagAnimate.cs" />
      <Compile Include="Assets\Art\Scripts\HideShow.cs" />
      <Compile Include="Assets\Art\Scripts\HideShowChildren.cs" />
      <Compile Include="Assets\Art\Scripts\HideShowSkinned.cs" />
