@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7dbae4b037a9cd24cbe128bcb6b3c12a
-timeCreated: 1476556843
+guid: da1190c50e34da645bf87650b1954c23
+timeCreated: 1477673882
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,12 +9,8 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: FertilizerHole:FertilizerHoleMesh
-    4300002: FertilizerHole:FertilizeHoleMesh
-    4300004: Fertilizer:FertilizerMesh
-    7400000: Flat
-    7400002: Default
-    7400004: Plant
+    4300000: DirtCover2:DirtCover2Mesh
+    7400000: TopDressing
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -38,10 +34,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default
+      name: TopDressing
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 2
+      lastFrame: 221
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -60,37 +56,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
-    - serializedVersion: 16
-      name: Plant
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 450
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: Hide
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.60154736
+        functionName: Show
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
