@@ -8,6 +8,7 @@ public class HideShow : MonoBehaviour
 	void Start ()
 	{
 		rend = GetComponent<Renderer>();
+		rend.enabled = false;
 	}
 
 	public void Show()
