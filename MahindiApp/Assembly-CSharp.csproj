@@ -50,7 +50,6 @@
      <Compile Include="Assets\Art\Scripts\CamAimSwitcher.cs" />
      <Compile Include="Assets\Art\Scripts\CameraPosition.cs" />
      <Compile Include="Assets\Art\Scripts\CameraSwitcher.cs" />
-     <Compile Include="Assets\Art\Scripts\Cobs.cs" />
      <Compile Include="Assets\Art\Scripts\HarvestBagAnimate.cs" />
      <Compile Include="Assets\Art\Scripts\HideShow.cs" />
      <Compile Include="Assets\Art\Scripts\HideShowChildren.cs" />
@@ -59,7 +58,6 @@
      <Compile Include="Assets\Art\Scripts\MaizePlantAnims.cs" />
      <Compile Include="Assets\Art\Scripts\MaizePlantMaterialChanger.cs" />
      <Compile Include="Assets\Art\Scripts\MaizePlantMaterialMesh.cs" />
-     <Compile Include="Assets\Art\Scripts\NextBagScript.cs" />
      <Compile Include="Assets\Art\Scripts\RainOnOff.cs" />
      <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
      <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
