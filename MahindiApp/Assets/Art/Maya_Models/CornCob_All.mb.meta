@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 30864d99fc98cb840877ddd92cc85102
+timeCreated: 1477640227
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group1
+    100004: group2
+    100006: group3
+    100008: group4
+    100010: group5
+    100012: group6
+    100014: MaizeCob
+    100016: MaizeCob 1
+    100018: MaizeCob 2
+    100020: MaizeCob 3
+    100022: MaizeCob 4
+    100024: MaizeCob 5
+    400000: //RootNode
+    400002: group1
+    400004: group2
+    400006: group3
+    400008: group4
+    400010: group5
+    400012: group6
+    400014: MaizeCob
+    400016: MaizeCob 1
+    400018: MaizeCob 2
+    400020: MaizeCob 3
+    400022: MaizeCob 4
+    400024: MaizeCob 5
+    2300000: MaizeCob
+    2300002: MaizeCob 1
+    2300004: MaizeCob 2
+    2300006: MaizeCob 3
+    2300008: MaizeCob 4
+    2300010: MaizeCob 5
+    3300000: MaizeCob
+    3300002: MaizeCob 1
+    3300004: MaizeCob 2
+    3300006: MaizeCob 3
+    3300008: MaizeCob 4
+    3300010: MaizeCob 5
+    4300000: MaizeCob
+    4300002: MaizeCob
+    4300004: MaizeCob
+    4300006: MaizeCob
+    4300008: MaizeCob
+    4300010: MaizeCob
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
