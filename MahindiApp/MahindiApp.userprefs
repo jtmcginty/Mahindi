@@ -1,21 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\RainOnOff.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\CornBag.cs">
     <Files>
       <File FileName="Assets\Art\Scripts\CameraPosition.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CameraSwitcher.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShow.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShowSkinned.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\RainOnOff.cs" Line="31" Column="31" />
+      <File FileName="Assets\Art\Scripts\RainOnOff.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\Light.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShowChildren.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CamAimSwitcher.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\MaizePlantMaterialChanger.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\MaizePlantAnims.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\MaizePlantAnims.cs" Line="15" Column="37" />
       <File FileName="Assets\Art\Scripts\MaizePlantMaterialMesh.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\HarvestBagAnimate.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CornCob.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\CornBag.cs" Line="21" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
