@@ -51,10 +51,12 @@
      <Compile Include="Assets\Art\Scripts\CameraPosition.cs" />
      <Compile Include="Assets\Art\Scripts\CameraSwitcher.cs" />
      <Compile Include="Assets\Art\Scripts\CornCob.cs" />
+     <Compile Include="Assets\Art\Scripts\DirtCoverMatBlender.cs" />
      <Compile Include="Assets\Art\Scripts\HarvestBagAnimate.cs" />
      <Compile Include="Assets\Art\Scripts\HideShow.cs" />
      <Compile Include="Assets\Art\Scripts\HideShowChildren.cs" />
      <Compile Include="Assets\Art\Scripts\HideShowSkinned.cs" />
+     <Compile Include="Assets\Art\Scripts\Leg.cs" />
      <Compile Include="Assets\Art\Scripts\Light.cs" />
      <Compile Include="Assets\Art\Scripts\MaizePlantAnims.cs" />
      <Compile Include="Assets\Art\Scripts\MaizePlantMaterialChanger.cs" />
