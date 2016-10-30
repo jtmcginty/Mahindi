@@ -12,10 +12,10 @@
       <File FileName="Assets\Art\Scripts\HideShowChildren.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CamAimSwitcher.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\MaizePlantMaterialChanger.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\MaizePlantAnims.cs" Line="15" Column="37" />
+      <File FileName="Assets\Art\Scripts\MaizePlantAnims.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\MaizePlantMaterialMesh.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CornCob.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\CornBag.cs" Line="21" Column="2" />
+      <File FileName="Assets\Art\Scripts\CornBag.cs" Line="15" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

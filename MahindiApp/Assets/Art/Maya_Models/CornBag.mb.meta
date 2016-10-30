@@ -10,23 +10,33 @@ ModelImporter:
     100004: //RootNode
     100006: CornBag:CobTop
     100008: CornBag:CornBag
+    100010: CornBag_Master:CobTop
+    100012: CornBag_Master:CornBag
     400000: CobTop
     400002: CornBag
     400004: //RootNode
     400006: CornBag:CobTop
     400008: CornBag:CornBag
+    400010: CornBag_Master:CobTop
+    400012: CornBag_Master:CornBag
     2300000: CobTop
     2300002: CornBag
     2300004: CornBag:CobTop
     2300006: CornBag:CornBag
+    2300008: CornBag_Master:CobTop
+    2300010: CornBag_Master:CornBag
     3300000: CobTop
     3300002: CornBag
     3300004: CornBag:CobTop
     3300006: CornBag:CornBag
+    3300008: CornBag_Master:CobTop
+    3300010: CornBag_Master:CornBag
     4300000: CobTop
     4300002: CornBag
     4300004: CornBag:CobTop
     4300006: CornBag:CornBag
+    4300008: CornBag_Master:CobTop
+    4300010: CornBag_Master:CornBag
     9500000: //RootNode
   materials:
     importMaterials: 1

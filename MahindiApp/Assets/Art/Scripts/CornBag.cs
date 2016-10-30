@@ -1,21 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CornBag : MonoBehaviour
-{
-	Animator[] anims;
-	int buttonHash1 = Animator.StringToHash("Harv1");
+public class CornBag : MonoBehaviour {
+	Animator anim;
+	int buttonHash = Animator.StringToHash("StartHarv");
 
 	void Start ()
 	{
-		anims = GetComponentsInChildren<Animator>();
+		anim = GetComponent<Animator>();
 	}
-
-	public void Harv1()
+	
+	public void StartHarv()
 	{
-		foreach (Animator anim in anims)
-		{			
-			anim.SetTrigger (buttonHash1);
-		}
+		anim.SetTrigger (buttonHash);
 	}
 }

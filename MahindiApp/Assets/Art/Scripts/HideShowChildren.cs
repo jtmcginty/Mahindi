@@ -6,6 +6,10 @@ public class HideShowChildren : MonoBehaviour {
 
 	void Start () {
 		rends = GetComponentsInChildren<Renderer> ();
+
+		foreach (Renderer rend in rends) {
+			rend.enabled = false;
+		}
 	}
 
 	public void HideChildren() {
