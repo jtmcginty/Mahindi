@@ -3,6 +3,7 @@ using System.Collections;
 
 public class RainOnOff : MonoBehaviour {
 	Animator anim;
+	int buttonHash = Animator.StringToHash("RainFirst");
 	int buttonHash1 = Animator.StringToHash("RainHigh");
 	int buttonHash2 = Animator.StringToHash("RainMedium");
 	int buttonHash3 = Animator.StringToHash("RainLow");
@@ -16,6 +17,10 @@ public class RainOnOff : MonoBehaviour {
 		anim = GetComponent<Animator>();
 	}
 
+	public void RainFirst()
+	{
+		anim.SetTrigger (buttonHash);
+	}
 	public void RainHigh()
 	{
 		anim.SetTrigger (buttonHash1);
