@@ -14,4 +14,10 @@ public class CornBag : MonoBehaviour {
 			anim.SetTrigger (buttonHash);
 		}
 	}
+
+	public void PauseAnim() {
+		foreach (Animator anim in anims) {
+			anim.speed = 0f;
+		}
+	}
 }
