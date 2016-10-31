@@ -54,8 +54,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Harv1
       takeName: Take 001
-      firstFrame: 2
-      lastFrame: 150
+      firstFrame: 1
+      lastFrame: 948
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -75,7 +75,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.395466
+      - time: 0.06352459
         functionName: ShowChildren
         data: 
         objectReferenceParameter: {instanceID: 0}
@@ -91,7 +91,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 61
     isReadable: 1
   meshes:
     lODScreenPercentages: []

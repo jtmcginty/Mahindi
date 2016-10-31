@@ -3,21 +3,27 @@ using System.Collections;
 
 public class Light : MonoBehaviour {
 	Animator anim;
-	int buttonHash1 = Animator.StringToHash("Sunny");
-	int buttonHash2 = Animator.StringToHash("Cloudy");
+	int buttonHash2 = Animator.StringToHash("CloudyHigh");
+	int buttonHash3 = Animator.StringToHash("CloudyMed");
+	int buttonHash4 = Animator.StringToHash("CloudyLow");
 
 	void Start ()
 	{
 		anim = GetComponent<Animator>();
 	}
 
-	public void Sunny()
-	{
-		anim.SetTrigger (buttonHash1);
-	}
-
-	public void Cloudy()
+	public void CloudyHigh()
 	{
 		anim.SetTrigger (buttonHash2);
+	}
+
+	public void CloudyMed()
+	{
+		anim.SetTrigger (buttonHash3);
+	}
+
+	public void CloudyLow()
+	{
+		anim.SetTrigger (buttonHash4);
 	}
 }

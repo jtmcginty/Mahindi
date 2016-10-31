@@ -5,14 +5,12 @@ public class MaizePlantAnims : MonoBehaviour
 {
 	Animator[] anims;
 	int buttonHash = Animator.StringToHash("Grow1");
-	int buttonHash1 = Animator.StringToHash("Grow2");
-	int buttonHash2 = Animator.StringToHash("Grow3");
-	int buttonHash3 = Animator.StringToHash("GrowFull");
-	int buttonHash4 = Animator.StringToHash("GrowMed");
-	int buttonHash5 = Animator.StringToHash("GrowLow");
-	int buttonHash6 = Animator.StringToHash("FullDry");
-	int buttonHash7 = Animator.StringToHash("MedDry");
-	int buttonHash8 = Animator.StringToHash("LowDry");
+	int buttonHash1 = Animator.StringToHash("Grow2High");
+	int buttonHash2 = Animator.StringToHash("Grow2Med");
+	int buttonHash3 = Animator.StringToHash("Grow2Low");
+	int buttonHash4 = Animator.StringToHash("DryHigh");
+	int buttonHash5 = Animator.StringToHash("DryMed");
+	int buttonHash6 = Animator.StringToHash("DryLow");
 
 	void Start ()
 	{
@@ -26,60 +24,46 @@ public class MaizePlantAnims : MonoBehaviour
 			anim.SetTrigger (buttonHash);
 		}
 	}
-	public void Grow2()
+	public void Grow2High()
 	{
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash1);
 		}
 	}
-	public void Grow3()
+	public void Grow2Med()
 	{
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash2);
 		}
 	}
-	public void GrowFull()
+	public void Grow2Low()
 	{
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash3);
 		}
 	}
-	public void GrowMed()
+	public void DryHigh()
 	{
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash4);
 		}
 	}
-	public void GrowLow()
+	public void DryMed()
 	{
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash5);
 		}
 	}
-	public void FullDry()
+	public void DryLow()
 	{
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash6);
-		}
-	}
-	public void MedDry()
-	{
-		foreach (Animator anim in anims)
-		{			
-			anim.SetTrigger (buttonHash7);
-		}
-	}
-	public void LowDry()
-	{
-		foreach (Animator anim in anims)
-		{			
-			anim.SetTrigger (buttonHash8);
 		}
 	}
 }
