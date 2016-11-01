@@ -427,6 +427,12 @@ ModelImporter:
     100838: Cube490
     100840: Cube491
     100842: Cube492
+    100844: MaizeCobsDryHigh_Msh
+    100846: MaizeCobsDryLow_Msh
+    100848: MaizeCobsDryMed_Msh
+    100850: MaizePlantDryHigh_Msh
+    100852: MaizePlantDryLow_Msh
+    100854: MaizePlantDryMed_Msh
     400000: //RootNode
     400002: Cube
     400004: Cube1
@@ -849,6 +855,12 @@ ModelImporter:
     400838: Cube490
     400840: Cube491
     400842: Cube492
+    400844: MaizeCobsDryHigh_Msh
+    400846: MaizeCobsDryLow_Msh
+    400848: MaizeCobsDryMed_Msh
+    400850: MaizePlantDryHigh_Msh
+    400852: MaizePlantDryLow_Msh
+    400854: MaizePlantDryMed_Msh
     2300000: Cube
     2300002: Cube1
     2300004: Cube10
@@ -1264,6 +1276,12 @@ ModelImporter:
     2300824: Cube490
     2300826: Cube491
     2300828: Cube492
+    2300830: MaizeCobsDryHigh_Msh
+    2300832: MaizeCobsDryLow_Msh
+    2300834: MaizeCobsDryMed_Msh
+    2300836: MaizePlantDryHigh_Msh
+    2300838: MaizePlantDryLow_Msh
+    2300840: MaizePlantDryMed_Msh
     3300000: Cube
     3300002: Cube1
     3300004: Cube10
@@ -1679,6 +1697,12 @@ ModelImporter:
     3300824: Cube490
     3300826: Cube491
     3300828: Cube492
+    3300830: MaizeCobsDryHigh_Msh
+    3300832: MaizeCobsDryLow_Msh
+    3300834: MaizeCobsDryMed_Msh
+    3300836: MaizePlantDryHigh_Msh
+    3300838: MaizePlantDryLow_Msh
+    3300840: MaizePlantDryMed_Msh
     4300000: Field:FieldMesh
     4300002: Cube1
     4300004: Cube2
@@ -2094,6 +2118,12 @@ ModelImporter:
     4300824: Cube490
     4300826: Cube491
     4300828: Cube492
+    4300830: MaizeCobsDryHigh_Msh
+    4300832: MaizePlantDryHigh_Msh
+    4300834: MaizeCobsDryMed_Msh
+    4300836: MaizePlantDryMed_Msh
+    4300838: MaizeCobsDryLow_Msh
+    4300840: MaizePlantDryLow_Msh
     9500000: //RootNode
   materials:
     importMaterials: 1
