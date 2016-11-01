@@ -68,7 +68,7 @@ ModelImporter:
       name: Plant
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 200
+      lastFrame: 450
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
