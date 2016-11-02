@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Light : MonoBehaviour {
+public class LightScript : MonoBehaviour {
 	Animator anim;
 	int buttonHash2 = Animator.StringToHash("CloudyHigh");
 	int buttonHash3 = Animator.StringToHash("CloudyMed");
