@@ -11,6 +11,8 @@ ModelImporter:
     3300000: //RootNode
     4300000: DirtCover2:DirtCover2Mesh
     7400000: TopDressing
+    7400002: Default
+    7400004: Default2
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -37,7 +39,7 @@ ModelImporter:
       name: TopDressing
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 221
+      lastFrame: 401
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -64,8 +66,45 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.60154736
+      - time: 0.32689947
         functionName: Show
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Default2
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: Hide
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

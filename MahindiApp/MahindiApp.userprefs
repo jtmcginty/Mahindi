@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\Cho_Elements.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\AnimPlant.cs">
     <Files>
       <File FileName="Assets\Art\Scripts\CameraPosition.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CameraSwitcher.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="25" Column="33" />
       <File FileName="Assets\Art\Scripts\HideShow.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\HideShowSkinned.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\RainOnOff.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\RainOnOff.cs" Line="40" Column="30" />
       <File FileName="Assets\Art\Scripts\HideShowChildren.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CamAimSwitcher.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\MaizePlantMaterialChanger.cs" Line="1" Column="1" />
@@ -16,9 +16,10 @@
       <File FileName="Assets\Art\Scripts\CornCob.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CornBag.cs" Line="1" Column="1" />
       <File FileName="Assets\Art\Scripts\CornBag26.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\Cho_Sequences.cs" Line="23" Column="33" />
-      <File FileName="Assets\Art\Scripts\Cho_Elements.cs" Line="69" Column="26" />
-      <File FileName="Assets\Art\Scripts\LightScript.cs" Line="4" Column="25" />
+      <File FileName="Assets\Art\Scripts\Cho_Sequences.cs" Line="11" Column="61" />
+      <File FileName="Assets\Art\Scripts\Cho_Elements.cs" Line="45" Column="34" />
+      <File FileName="Assets\Art\Scripts\LightScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Art\Scripts\DirtCoverMatBlender.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

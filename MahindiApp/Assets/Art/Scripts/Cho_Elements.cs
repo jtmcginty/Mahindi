@@ -4,6 +4,7 @@ using System.Collections;
 public class Cho_Elements : MonoBehaviour {
 	public CameraSwitcher cameraSwitcherR;
 	public AnimPlant PlantPHole;
+	public AnimPlant PlantFHole;
 	public AnimPlant PlantStick;
 	public AnimPlant PlantHand;
 	public AnimPlant PlantFertilizer;
@@ -11,6 +12,7 @@ public class Cho_Elements : MonoBehaviour {
 	public AnimPlant PlantSeed;
 	public AnimPlant PlantLeg;
 	public AnimPlant PlantDirtCover;
+	public AnimPlant PlantDirtCover2;
 	public RainOnOff RainOnOffSI;
 	public LightScript CloudySI;
 	public MaizePlantAnims MaizePlantAnimsSI;
@@ -32,6 +34,15 @@ public class Cho_Elements : MonoBehaviour {
 		PlantSeed.Plant ();
 		PlantLeg.Plant ();
 		PlantDirtCover.Plant ();
+	}
+
+	public void TopDressing() {
+		PlantFHole.TopDressing ();
+		PlantStick.TopDressing ();
+		PlantHand.TopDressing ();
+		PlantFertilizer.TopDressing ();
+		PlantLeg.TopDressing ();
+		PlantDirtCover2.TopDressing ();
 	}
 
 	public void RainFirst() {
