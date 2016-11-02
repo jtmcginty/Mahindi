@@ -22,6 +22,7 @@ public class CornCob : MonoBehaviour
 
 	public void StopCornCob()
 	{
+		Debug.LogError("About to stop corn cobs really!");
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash1);

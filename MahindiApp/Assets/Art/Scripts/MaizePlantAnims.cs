@@ -11,6 +11,9 @@ public class MaizePlantAnims : MonoBehaviour
 	int buttonHash4 = Animator.StringToHash("DryHigh");
 	int buttonHash5 = Animator.StringToHash("DryMed");
 	int buttonHash6 = Animator.StringToHash("DryLow");
+	int buttonHash7 = Animator.StringToHash("High_Static");
+	int buttonHash8 = Animator.StringToHash("Med_Static");
+	int buttonHash9 = Animator.StringToHash("Low_Static");
 
 	void Start ()
 	{
@@ -64,6 +67,27 @@ public class MaizePlantAnims : MonoBehaviour
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash6);
+		}
+	}
+	public void High_Static()
+	{
+		foreach (Animator anim in anims)
+		{			
+			anim.SetTrigger (buttonHash7);
+		}
+	}
+	public void Med_Static()
+	{
+		foreach (Animator anim in anims)
+		{			
+			anim.SetTrigger (buttonHash8);
+		}
+	}
+	public void Low_Static()
+	{
+		foreach (Animator anim in anims)
+		{			
+			anim.SetTrigger (buttonHash9);
 		}
 	}
 }

@@ -35,4 +35,9 @@ public class CameraSwitcher : MonoBehaviour {
 		follower.target = targetharvest;
 		follower.smoothTime = 0.9f;
 	}
+	public void CamMedSnap() {
+		CameraPosition follower = GetComponent<CameraPosition>();
+		follower.smoothTime = 0f;
+		follower.target = targetmed;
+	}
 }

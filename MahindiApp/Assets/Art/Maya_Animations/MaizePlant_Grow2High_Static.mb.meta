@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4965ee1108f8fae4fa11eed5e74b64ac
-timeCreated: 1477848834
+guid: 189c9394f7a401747b3ebf35220f7df1
+timeCreated: 1478088041
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -37,7 +37,7 @@ ModelImporter:
     4300006: MaizePlant:Leaves2
     4300008: MaizePlant:Leaves3
     4300010: MaizePlant:Tassel
-    7400000: DryHigh
+    7400000: Grow2High_Static
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -61,10 +61,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: DryHigh
+      name: Grow2High_Static
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 180
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -85,10 +85,10 @@ ModelImporter:
       curves: []
       events:
       - time: 0
-        functionName: GreenDry
+        functionName: ShowChildren
         data: 
         objectReferenceParameter: {instanceID: 0}
-        floatParameter: 1
+        floatParameter: 0
         intParameter: 0
         messageOptions: 0
       transformMask:

@@ -64,7 +64,7 @@ ModelImporter:
       name: DryLow
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 60
+      lastFrame: 180
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

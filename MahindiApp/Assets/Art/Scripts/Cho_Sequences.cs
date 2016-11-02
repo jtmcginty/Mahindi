@@ -9,6 +9,9 @@ public class Cho_Sequences : MonoBehaviour {
 	int buttonHash3 = Animator.StringToHash("PlantGrowTopHigh");
 	int buttonHash4 = Animator.StringToHash("PlantGrowTopMed");
 	int buttonHash5 = Animator.StringToHash("PlantGrowTopLow");
+	int buttonHash6 = Animator.StringToHash("HarvestHigh");
+	int buttonHash7 = Animator.StringToHash("HarvestMed");
+	int buttonHash8 = Animator.StringToHash("HarvestLow");
 
 	void Start () {
 		anim = GetComponent<Animator>();
@@ -36,5 +39,17 @@ public class Cho_Sequences : MonoBehaviour {
 
 	public void PlantGrowTopLow() {
 		anim.SetTrigger (buttonHash5);
+	}
+
+	public void HarvestHigh() {
+		anim.SetTrigger (buttonHash6);
+	}
+
+	public void HarvestMed() {
+		anim.SetTrigger (buttonHash7);
+	}
+
+	public void HarvestLow() {
+		anim.SetTrigger (buttonHash8);
 	}
 }
