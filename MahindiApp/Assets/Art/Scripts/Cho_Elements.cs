@@ -12,7 +12,7 @@ public class Cho_Elements : MonoBehaviour {
 	public AnimPlant PlantLeg;
 	public AnimPlant PlantDirtCover;
 	public RainOnOff RainOnOffSI;
-	public LightScript CloudyHighSI;
+	public LightScript CloudySI;
 	public MaizePlantAnims MaizePlantAnimsSI;
 
 	public void CamClose() {
@@ -36,12 +36,22 @@ public class Cho_Elements : MonoBehaviour {
 
 	public void RainFirst() {
 		RainOnOffSI.RainFirst ();
-		CloudyHighSI.CloudyLow ();
+		CloudySI.CloudyLow ();
 	}
 
 	public void RainHigh() {
 		RainOnOffSI.RainHigh ();
-		CloudyHighSI.CloudyHigh ();
+		CloudySI.CloudyHigh ();
+	}
+
+	public void RainMed() {
+		RainOnOffSI.RainMedium ();
+		CloudySI.CloudyMed ();
+	}
+
+	public void RainLow() {
+		RainOnOffSI.RainLow ();
+		CloudySI.CloudyLow ();
 	}
 
 	public void Grow1() {
@@ -50,5 +60,13 @@ public class Cho_Elements : MonoBehaviour {
 
 	public void Grow2High() {
 		MaizePlantAnimsSI.Grow2High ();
+	}
+
+	public void Grow2Med() {
+		MaizePlantAnimsSI.Grow2Med ();
+	}
+
+	public void Grow2Low() {
+		MaizePlantAnimsSI.Grow2Low ();
 	}
 }
