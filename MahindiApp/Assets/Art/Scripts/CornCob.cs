@@ -17,6 +17,7 @@ public class CornCob : MonoBehaviour
 		foreach (Animator anim in anims)
 		{			
 			anim.SetTrigger (buttonHash);
+			anim.speed = .5f;
 		}
 	}
 
