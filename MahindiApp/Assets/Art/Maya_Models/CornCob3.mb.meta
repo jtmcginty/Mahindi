@@ -7,11 +7,21 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: MaizeCob
+    100004: CornCob3:CobBlur_Msh
+    100006: CornCob3:MaizeCob
     400000: //RootNode
     400002: MaizeCob
+    400004: CornCob3:CobBlur_Msh
+    400006: CornCob3:MaizeCob
     2300000: MaizeCob
+    2300002: CornCob3:CobBlur_Msh
+    2300004: CornCob3:MaizeCob
     3300000: MaizeCob
+    3300002: CornCob3:CobBlur_Msh
+    3300004: CornCob3:MaizeCob
     4300000: MaizeCob
+    4300002: CornCob3:MaizeCob
+    4300004: CornCob3:CobBlur_Msh
     7400000: CornCob3
     9500000: //RootNode
   materials:
