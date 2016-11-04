@@ -6,7 +6,6 @@ public class CornBag26 : MonoBehaviour {
 
 	public void StopCornCob()
 	{
-		Debug.LogError("About to stop corn cobs!");
 		CornCobScript.StopCornCob ();
 	}
 }

@@ -143,4 +143,36 @@ public class Cho_Elements : MonoBehaviour {
 		CornBagSI.StartHarv ();
 		CornCobSI.PlayCornCob ();
 	}
+
+	public void CornCob() {
+		CornCobSI.PlayCornCob ();
+	}
+
+	public void CornCob1() {
+		CornCobSI.PlayCornCob1 ();
+	}
+
+	public void CornCob2() {
+		CornCobSI.PlayCornCob2 ();
+	}
+
+	public void CornCob3() {
+		CornCobSI.PlayCornCob3 ();
+	}
+
+	public void CornCob4() {
+		CornCobSI.PlayCornCob4 ();
+	}
+
+	public void CornCob5() {
+		CornCobSI.PlayCornCob5 ();
+	}
+
+	public void CornCob6() {
+		CornCobSI.PlayCornCob6 ();
+	}
+
+	public void CornCob7() {
+		CornCobSI.PlayCornCob7 ();
+	}
 }
