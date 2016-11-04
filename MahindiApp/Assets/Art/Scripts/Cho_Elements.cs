@@ -175,4 +175,8 @@ public class Cho_Elements : MonoBehaviour {
 	public void CornCob7() {
 		CornCobSI.PlayCornCob7 ();
 	}
+
+	public void CornCob8() {
+		CornCobSI.PlayCornCob8 ();
+	}
 }

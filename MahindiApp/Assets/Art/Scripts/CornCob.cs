@@ -13,6 +13,7 @@ public class CornCob : MonoBehaviour
 	int buttonHash6 = Animator.StringToHash("PlayCornCob5");
 	int buttonHash7 = Animator.StringToHash("PlayCornCob6");
 	int buttonHash8 = Animator.StringToHash("PlayCornCob7");
+	int buttonHash9 = Animator.StringToHash("PlayCornCob8");
 
 
 	void Start ()
@@ -97,6 +98,39 @@ public class CornCob : MonoBehaviour
 		{			
 			anim.SetTrigger (buttonHash8);
 			anim.speed = 1f;
+		}
+	}
+
+	public void PlayCornCob8()
+	{
+		foreach (Animator anim in anims)
+		{			
+			anim.SetTrigger (buttonHash9);
+			anim.speed = 1f;
+		}
+	}
+
+	public void FastAnim()
+	{
+		foreach (Animator anim in anims)
+		{			
+			anim.speed = 3f;
+		}
+	}
+
+	public void NormalAnim()
+	{
+		foreach (Animator anim in anims)
+		{			
+			anim.speed = 1f;
+		}
+	}
+
+	public void SlowAnim()
+	{
+		foreach (Animator anim in anims)
+		{			
+			anim.speed = .5f;
 		}
 	}
 }
