@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
+using System.Collections;
 
 namespace DigitalRuby.RainMaker
 {
     public class RainCollision : MonoBehaviour
     {
         private static readonly Color32 color = new Color32(255, 255, 255, 255);
-        private readonly List<ParticleCollisionEvent> collisionEvents = new List<ParticleCollisionEvent>();
+        private ParticleCollisionEvent[] collisionEvents;
 
         public ParticleSystem RainExplosion;
         public ParticleSystem RainParticleSystem;
@@ -46,6 +46,11 @@ namespace DigitalRuby.RainMaker
         {
             if (RainExplosion != null && RainParticleSystem != null)
             {
+                if (collisionEvents == null || collisionEvents.Length != RainParticleSystem.GetSafeCollisionEventSize())
+                {
+                    collisionEvents = new ParticleCollisionEvent[RainParticleSystem.GetSafeCollisionEventSize()];
+                }
+
                 int count = RainParticleSystem.GetCollisionEvents(obj, collisionEvents);
                 for (int i = 0; i < count; i++)
                 {

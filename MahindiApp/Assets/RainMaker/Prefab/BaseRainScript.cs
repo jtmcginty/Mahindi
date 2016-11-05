@@ -159,10 +159,7 @@ namespace DigitalRuby.RainMaker
                     {
                         ParticleSystem.EmissionModule e = RainFallParticleSystem.emission;
                         e.enabled = RainFallParticleSystem.GetComponent<Renderer>().enabled = true;
-                        if (!RainFallParticleSystem.isPlaying)
-                        {
-                            RainFallParticleSystem.Play();
-                        }
+                        RainFallParticleSystem.Play();
                         ParticleSystem.MinMaxCurve rate = e.rate;
                         rate.mode = ParticleSystemCurveMode.Constant;
                         rate.constantMin = rate.constantMax = RainFallEmissionRate();
@@ -172,10 +169,7 @@ namespace DigitalRuby.RainMaker
                     {
                         ParticleSystem.EmissionModule e = RainMistParticleSystem.emission;
                         e.enabled = RainMistParticleSystem.GetComponent<Renderer>().enabled = true;
-                        if (!RainMistParticleSystem.isPlaying)
-                        {
-                            RainMistParticleSystem.Play();
-                        }
+                        RainMistParticleSystem.Play();
                         float emissionRate;
                         if (RainIntensity < RainMistThreshold)
                         {
