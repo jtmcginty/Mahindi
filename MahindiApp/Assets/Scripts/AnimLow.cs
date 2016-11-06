@@ -11,7 +11,7 @@ public class AnimLow : MonoBehaviour {
 
 	public int counter = 0;
 	public Boolean finishedAnim = false;
-	public GameObject myCanvas = GameObject.Find ("Canvas");
+	public GameObject myCanvas;
 
 
 
@@ -29,9 +29,8 @@ public class AnimLow : MonoBehaviour {
 			finishedAnim = true;
 			counter++;
 		}
-
 		if (counter == 1) {
-			//myCanvas.SetActive (finishedAnim);
+			myCanvas.SetActive (finishedAnim);
 		}
 	}
 }

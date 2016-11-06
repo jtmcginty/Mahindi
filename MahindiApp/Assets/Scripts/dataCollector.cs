@@ -57,6 +57,7 @@ public class dataCollector : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		
 		loadData ();
 		DAPText.text = dataDAP[indexDAP];
 		CANText.text = dataCAN[indexCAN];
@@ -184,13 +185,11 @@ public class dataCollector : MonoBehaviour
 		totalYield = yieldTotal [indexYield];
 	}
 
-//	public void saveData(){
-//		GlobalControl.Instance.DAP = dataDAP [indexDAP];
-//		GlobalControl.Instance.CAN = dataCAN [indexCAN];
-//		GlobalControl.Instance.L = dataL [indexL];
-//		GlobalControl.Instance.W = dataW [indexW];
-//		GlobalControl.Instance.Yield = totalYield;
-//	}
+	public void saveData(){
+		GlobalControl.Instance.DAP = dataDAP [indexDAP];
+		GlobalControl.Instance.CAN = dataCAN [indexCAN];
+		GlobalControl.Instance.L = dataL [indexL];
+	}
 
 
 

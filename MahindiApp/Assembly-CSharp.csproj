@@ -76,7 +76,9 @@
      <Compile Include="Assets\Scripts\AnimLow.cs" />
      <Compile Include="Assets\Scripts\AnimMed.cs" />
      <Compile Include="Assets\Scripts\ChooseVillage.cs" />
+     <Compile Include="Assets\Scripts\GlobalControl.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Scripts\SceneLoaderWeather.cs" />
      <Compile Include="Assets\Scripts\dataCollector.cs" />
      <None Include="Assets\RainMaker\Prefab\RainShader.shader" />
      <None Include="Assets\RainMaker\Readme.txt" />
