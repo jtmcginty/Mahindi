@@ -38,4 +38,22 @@ public class CornBag : MonoBehaviour {
 			anim.speed = .5f;
 		}
 	}
+
+	public void SpeedHigh() {
+		foreach (Animator anim in anims) {
+			anim.speed = 3f;
+		}
+	}
+
+	public void SpeedMed() {
+		foreach (Animator anim in anims) {
+			anim.speed = 1.29f;
+		}
+	}
+
+	public void SpeedLow() {
+		foreach (Animator anim in anims) {
+			anim.speed = .7f;
+		}
+	}
 }

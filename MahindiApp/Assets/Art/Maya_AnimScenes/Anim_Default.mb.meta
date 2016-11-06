@@ -43,6 +43,7 @@ ModelImporter:
     100070: DirtCover2:DirtCover2Mesh
     100072: Fertilizer:FertilizerMesh
     100074: FertilizerHole:FertilizeHoleMesh
+    100076: Field:Field:FieldMesh
     400000: //RootNode
     400002: FertilizerHole:FertilizerHoleMesh
     400004: Field:FieldMesh
@@ -81,6 +82,7 @@ ModelImporter:
     400070: DirtCover2:DirtCover2Mesh
     400072: Fertilizer:FertilizerMesh
     400074: FertilizerHole:FertilizeHoleMesh
+    400076: Field:Field:FieldMesh
     2300000: FertilizerHole:FertilizerHoleMesh
     2300002: Field:FieldMesh
     2300004: PlantHole:PlantHoleMesh
@@ -90,6 +92,7 @@ ModelImporter:
     2300012: DirtCover2:DirtCover2Mesh
     2300014: Fertilizer:FertilizerMesh
     2300016: FertilizerHole:FertilizeHoleMesh
+    2300018: Field:Field:FieldMesh
     3300000: FertilizerHole:FertilizerHoleMesh
     3300002: Field:FieldMesh
     3300004: PlantHole:PlantHoleMesh
@@ -99,6 +102,7 @@ ModelImporter:
     3300012: DirtCover2:DirtCover2Mesh
     3300014: Fertilizer:FertilizerMesh
     3300016: FertilizerHole:FertilizeHoleMesh
+    3300018: Field:Field:FieldMesh
     4300000: Leg:LegMesh
     4300002: Field:FieldMesh
     4300004: Stick:StickMesh
@@ -110,6 +114,7 @@ ModelImporter:
     4300016: FertilizerHole:FertilizeHoleMesh
     4300018: Fertilizer:FertilizerMesh
     4300020: DirtCover2:DirtCover2Mesh
+    4300022: Field:Field:FieldMesh
     9500000: //RootNode
     13700000: Leg:LegMesh
     13700002: Hand:HandMesh

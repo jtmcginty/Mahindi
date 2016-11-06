@@ -179,4 +179,34 @@ public class Cho_Elements : MonoBehaviour {
 	public void CornCob8() {
 		CornCobSI.PlayCornCob8 ();
 	}
+
+	public void StopHarvest() {
+		CornBagSI.PauseAnim ();
+		CornCobSI.StopCornCob ();
+	}
+
+	public void FastHarvest() {
+		CornBagSI.FastAnim ();
+		CornCobSI.FastAnim ();
+	}
+
+	public void NormalHarvest() {
+		CornBagSI.NormalAnim ();
+		CornCobSI.NormalAnim ();
+	}
+
+	public void SpeedHigh() {
+		CornBagSI.SpeedHigh ();
+		CornCobSI.SpeedHigh ();
+	}
+
+	public void SpeedMed() {
+		CornBagSI.SpeedMed ();
+		CornCobSI.SpeedMed ();
+	}
+
+	public void SpeedLow() {
+		CornBagSI.SpeedLow ();
+		CornCobSI.SpeedLow ();
+	}
 }
