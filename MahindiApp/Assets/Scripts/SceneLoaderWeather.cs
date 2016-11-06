@@ -11,22 +11,20 @@ using UnityEngine.SceneManagement;
 public class SceneLoaderWeather : MonoBehaviour
 {
 	public System.Random rnd = new System.Random ();
-
+	string hasCAN = "";
 	//variables to save
-	public int weather;
-
-	public void chooseWeather(){
-		weather = rnd.Next (1, 4);
-		if (weather == 1) {
-			LoadScene ("Low");
-		} else if (weather == 2) {
-			LoadScene ("Med");
-		} else
-			LoadScene ("High");
-	}
 
 	public void LoadScene(string sceneName) {
 		SceneManager.LoadScene( sceneName );
+	}
+	public void loadWord(Text CANdata){
+		if (CANdata.text != "0") {
+			hasCAN = "Top";
+		}
+	}
+
+	public void LoadSceneWeather(Text weather) {
+		SceneManager.LoadScene( hasCAN + weather.text );
 	}
 
 	public void saveWeather (){

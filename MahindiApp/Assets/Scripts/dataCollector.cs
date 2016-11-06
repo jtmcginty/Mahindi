@@ -10,12 +10,13 @@ using System.Text.RegularExpressions;
 public class dataCollector : MonoBehaviour
 {
 	// Text Asset Variables
-	string villageNum = "32";
+	string villageNum = "hi";
 	string hhid = "555";
 
 	public Text DAPText;
 	public Text CANText;
 	public Text LText;
+	public Text WText;
 	public Text cropYield;
 
 	public string totalYield = "Total Yield";
@@ -62,7 +63,8 @@ public class dataCollector : MonoBehaviour
 		DAPText.text = dataDAP[indexDAP];
 		CANText.text = dataCAN[indexCAN];
 		LText.text = dataL[indexL];
-		cropYield.text = totalYield;
+		WText.text = "Low";
+		//cropYield.text = totalYield;
 		//saveData ();
 	}
 	
@@ -73,7 +75,14 @@ public class dataCollector : MonoBehaviour
 			DAPText.text = dataDAP [indexDAP];
 			CANText.text = dataCAN [indexCAN];
 			LText.text = dataL [indexL];
-			cropYield.text = totalYield;
+			if (dataW [indexW] == "1") {
+				WText.text = "Low";
+			} else if (dataW [indexW] == "2") {
+				WText.text = "Med";
+			} else if (dataW [indexW] == "3") {
+				WText.text = "High";
+			}
+			//cropYield.text = totalYield;
 			//saveData ();
 		}
 	}
@@ -131,6 +140,12 @@ public class dataCollector : MonoBehaviour
 		}
 		changedIndex = true;
 	}
+	public void increaseWIndex(){
+		if (indexW < (dataW.Length-1)) {
+			indexW++;
+		}
+		changedIndex = true;
+	}
 	public void decreaseDAPIndex(){
 		if (indexDAP > 0) {
 			indexDAP--;
@@ -146,6 +161,12 @@ public class dataCollector : MonoBehaviour
 	public void decreaseLIndex(){
 		if (indexL > 0) {
 			indexL--;
+		}
+		changedIndex = true;
+	}
+	public void decreaseWIndex(){
+		if (indexW > 0) {
+			indexW--;
 		}
 		changedIndex = true;
 	}
