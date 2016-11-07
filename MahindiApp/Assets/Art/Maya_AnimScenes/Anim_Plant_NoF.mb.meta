@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 6d9b80ee0b7a71b4b8c6847398e84fbe
+timeCreated: 1478491615
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anim_Plant_JustDirtTop:DirtCover:DirtCoverMesh
+    100002: //RootNode
+    100004: Field:Field:FieldMesh
+    100006: Hand:Arm
+    100008: Hand:Hand
+    100010: Hand:Hand_Grp
+    100012: Hand:HandMesh
+    100014: Hand:Index1
+    100016: Hand:Index2
+    100018: Hand:Index3
+    100020: Hand:Middle1
+    100022: Hand:Middle2
+    100024: Hand:Middle3
+    100026: Hand:Pinky1
+    100028: Hand:Pinky2
+    100030: Hand:Pinky3
+    100032: Hand:Ring1
+    100034: Hand:Ring2
+    100036: Hand:Ring3
+    100038: Hand:Thumb1
+    100040: Hand:Thumb2
+    100042: Hand:Thumb3
+    100044: Leg:Calf
+    100046: Leg:Foot
+    100048: Leg:Leg_Grp
+    100050: Leg:LegMesh
+    100052: Leg:Thigh
+    100054: Leg:Thigh_Grp
+    100056: Leg:Toes
+    100058: PlantHole:PlantHoleMesh
+    100060: Seed1:SeedMesh
+    100062: Stick:StickMesh
+    400000: Anim_Plant_JustDirtTop:DirtCover:DirtCoverMesh
+    400002: //RootNode
+    400004: Field:Field:FieldMesh
+    400006: Hand:Arm
+    400008: Hand:Hand
+    400010: Hand:Hand_Grp
+    400012: Hand:HandMesh
+    400014: Hand:Index1
+    400016: Hand:Index2
+    400018: Hand:Index3
+    400020: Hand:Middle1
+    400022: Hand:Middle2
+    400024: Hand:Middle3
+    400026: Hand:Pinky1
+    400028: Hand:Pinky2
+    400030: Hand:Pinky3
+    400032: Hand:Ring1
+    400034: Hand:Ring2
+    400036: Hand:Ring3
+    400038: Hand:Thumb1
+    400040: Hand:Thumb2
+    400042: Hand:Thumb3
+    400044: Leg:Calf
+    400046: Leg:Foot
+    400048: Leg:Leg_Grp
+    400050: Leg:LegMesh
+    400052: Leg:Thigh
+    400054: Leg:Thigh_Grp
+    400056: Leg:Toes
+    400058: PlantHole:PlantHoleMesh
+    400060: Seed1:SeedMesh
+    400062: Stick:StickMesh
+    2300000: Anim_Plant_JustDirtTop:DirtCover:DirtCoverMesh
+    2300002: Field:Field:FieldMesh
+    2300004: PlantHole:PlantHoleMesh
+    2300006: Seed1:SeedMesh
+    2300008: Stick:StickMesh
+    3300000: Anim_Plant_JustDirtTop:DirtCover:DirtCoverMesh
+    3300002: Field:Field:FieldMesh
+    3300004: PlantHole:PlantHoleMesh
+    3300006: Seed1:SeedMesh
+    3300008: Stick:StickMesh
+    4300000: Leg:LegMesh
+    4300002: Field:Field:FieldMesh
+    4300004: Stick:StickMesh
+    4300006: PlantHole:PlantHoleMesh
+    4300008: Hand:HandMesh
+    4300010: Seed1:SeedMesh
+    4300012: Anim_Plant_JustDirtTop:DirtCover:DirtCoverMesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Hand:HandMesh
+    13700002: Leg:LegMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

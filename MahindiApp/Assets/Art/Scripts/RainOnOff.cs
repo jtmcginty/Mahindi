@@ -50,4 +50,9 @@ public class RainOnOff : MonoBehaviour {
 		default1.SetDefault ();
 		default2.SetDefault ();
 	}
+
+	public void ResetDirtCoverReg()
+	{
+		default1.SetDefault ();
+	}
 }

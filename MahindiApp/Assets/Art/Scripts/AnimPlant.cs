@@ -6,6 +6,7 @@ public class AnimPlant : MonoBehaviour {
 	int buttonHash = Animator.StringToHash("Plant");
 	int buttonHash1 = Animator.StringToHash("TopDressing");
 	int buttonHash2 = Animator.StringToHash("SetDefault");
+	int buttonHash3 = Animator.StringToHash("PlantNoF");
 
 	void Start ()
 	{
@@ -23,5 +24,9 @@ public class AnimPlant : MonoBehaviour {
 	public void SetDefault()
 	{
 		anim.SetTrigger (buttonHash2);
+	}
+	public void PlantNoF()
+	{
+		anim.SetTrigger (buttonHash3);
 	}
 }

@@ -52,6 +52,15 @@ public class Cho_Elements : MonoBehaviour {
 		PlantDirtCover.Plant ();
 	}
 
+	public void PlantNoF() {
+		PlantPHole.PlantNoF ();
+		PlantStick.PlantNoF ();
+		PlantHand.PlantNoF ();
+		PlantSeed.PlantNoF ();
+		PlantLeg.PlantNoF ();
+		PlantDirtCover.PlantNoF ();
+	}
+
 	public void TopDressing() {
 		PlantFHole.TopDressing ();
 		PlantStick.TopDressing ();
@@ -208,5 +217,9 @@ public class Cho_Elements : MonoBehaviour {
 	public void SpeedLow() {
 		CornBagSI.SpeedLow ();
 		CornCobSI.SpeedLow ();
+	}
+
+	public void ResetJustDirtCov2() {
+		PlantDirtCover2.SetDefault ();
 	}
 }
