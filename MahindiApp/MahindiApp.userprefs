@@ -1,17 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Art\Scripts\Cho_Sequences.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneLoaderWeather.cs">
     <Files>
-      <File FileName="Assets\Scripts\SceneLoaderWeather.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SeasonControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\dataCollector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AnimTopMed.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SceneLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\Cho_Sequences.cs" Line="17" Column="18" />
-      <File FileName="Assets\Scripts\AnimTopLow.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AnimTopHigh.cs" Line="1" Column="1" />
-      <File FileName="Assets\Art\Scripts\AnimPlant.cs" Line="9" Column="51" />
-      <File FileName="Assets\Art\Scripts\Cho_Elements.cs" Line="61" Column="26" />
+      <File FileName="Assets/Art/Scripts/Cho_Sequences.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AnimTopLow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneLoaderWeather.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

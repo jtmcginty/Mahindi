@@ -204,6 +204,8 @@ public class dataCollector : MonoBehaviour
 		}
 		Debug.Log (indexYield);
 		totalYield = yieldTotal [indexYield];
+
+		PlayerPrefs.SetString("TotalYield", totalYield);
 	}
 
 	public void saveData(){
