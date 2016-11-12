@@ -63,7 +63,7 @@ public class dataCollector : MonoBehaviour
 		DAPText.text = dataDAP[indexDAP];
 		CANText.text = dataCAN[indexCAN];
 		LText.text = dataL[indexL];
-		WText.text = "Low";
+		WText.text = "High";
 		//cropYield.text = totalYield;
 		//saveData ();
 	}
@@ -76,11 +76,11 @@ public class dataCollector : MonoBehaviour
 			CANText.text = dataCAN [indexCAN];
 			LText.text = dataL [indexL];
 			if (dataW [indexW] == "1") {
-				WText.text = "Low";
+				WText.text = "High";
 			} else if (dataW [indexW] == "2") {
 				WText.text = "Med";
 			} else if (dataW [indexW] == "3") {
-				WText.text = "High";
+				WText.text = "Low";
 			}
 			//cropYield.text = totalYield;
 			//saveData ();

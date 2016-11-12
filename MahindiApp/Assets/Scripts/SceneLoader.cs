@@ -18,6 +18,11 @@ public class SceneLoader : MonoBehaviour {
 	public Text Village;
 	public Text HHID;
 
+	public string tempYield;
+	public int hectareYield;
+	public double acreYield;
+	public double numBagsYield;
+
 
 	public int valW;
 	public int valCAN;
@@ -52,7 +57,11 @@ public class SceneLoader : MonoBehaviour {
 		Wdata.text = PlayerPrefs.GetString ("dataW");
 	}
 	public void getAndSetYield(Text Yield){
-		Yield.text = PlayerPrefs.GetString ("TotalYield");
+		tempYield = PlayerPrefs.GetString ("TotalYield");
+		hectareYield = Int32.Parse (tempYield);
+		acreYield = hectareYield / (2.471057);
+		numBagsYield = acreYield / 90;
+		Yield.text = numBagsYield.ToString("F2");
 	}
 	public void getAndSetVillage(Text Village){
 		Village.text = PlayerPrefs.GetString ("Village");
