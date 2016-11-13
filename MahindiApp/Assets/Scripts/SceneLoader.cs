@@ -61,7 +61,7 @@ public class SceneLoader : MonoBehaviour {
 		hectareYield = Int32.Parse (tempYield);
 		acreYield = hectareYield / (2.471057);
 		numBagsYield = acreYield / 90;
-		Yield.text = numBagsYield.ToString("F2");
+		Yield.text = numBagsYield.ToString("F0");
 	}
 	public void getAndSetVillage(Text Village){
 		Village.text = PlayerPrefs.GetString ("Village");

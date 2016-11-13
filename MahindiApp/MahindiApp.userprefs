@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/SceneLoader.cs" Line="62" Column="29" />
-      <File FileName="Assets/Scripts/dataCollector.cs" Line="66" Column="21" />
-      <File FileName="Assets/Scripts/SceneLoaderWeather.cs" Line="41" Column="18" />
+      <File FileName="Assets/Scripts/AnimNoFHigh.cs" Line="28" Column="14" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="64" Column="41" />
+      <File FileName="Assets/Scripts/dataCollector.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneLoaderWeather.cs" Line="1" Column="1" />
       <File FileName="Assets/Art/Scripts/Cho_Sequences.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/AnimTopNoFLow.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/AnimTopHigh.cs" Line="1" Column="1" />

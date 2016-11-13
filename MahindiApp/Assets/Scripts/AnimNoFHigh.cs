@@ -25,6 +25,7 @@ public class AnimNoFHigh : MonoBehaviour {
 	void Update () {
 		if (counter < 1) {
 			sequences.PlantGrowNoFHigh();
+			counter++;
 			sequences.HarvestHigh();
 			finishedAnim = true;
 			counter++;
